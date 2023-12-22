@@ -1,0 +1,11 @@
+bash
+pip install bing-image-downloader
+
+python
+from bing_image_downloader import downloader
+
+query_string = "example query"
+limit = 100
+output_dir = "downloaded_images"
+
+downloader.download(query_string, limit, output_dir)
