@@ -1,0 +1,7 @@
+python
+from bbid import bbid
+
+search_string = "example query"
+output_dir = "downloaded_images"
+
+bbid.download(search_string, output_dir)
